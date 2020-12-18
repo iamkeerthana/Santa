@@ -1,0 +1,19 @@
+#text-input {
+    display: block;
+    min-height: 10vh;
+    width: 70%;
+    margin: 0.5rem;
+    margin-top: 80px;
+    padding: 1rem;
+}
+#output {
+    display: block;
+    border:2px solid black;
+    height: 10vh;
+    width: 70%;
+    margin: 0.5rem;
+    padding: 1rem;
+ }
+#btn {
+    margin: 1rem;
+}
