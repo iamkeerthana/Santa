@@ -1,19 +1,62 @@
+:root {
+    --primary-color: #0f0f0f;
+    --white: #f3f3f3;
+    --red: #ec0101;
+    --orange: #f39233;
+    --dark-blue: #0779e4;
+    --green: #54e346;
+}
+
+body {
+    background-color: var(--primary-color);
+    border: 1px solid var(--green);
+}
+
 #text-input {
     display: block;
     min-height: 10vh;
-    width: 70%;
+    width: 78%;
+    border: 1px solid var(--primary-color);
     margin: 0.5rem;
-    margin-top: 80px;
+    margin-top: 30px;
     padding: 1rem;
+    background-color: black;
+    color: var(--red);
+    font-size: large;
+    font-family: 'Lobster', cursive;
 }
 #output {
     display: block;
-    border:2px solid black;
+    border:2px solid var(--primary-color);
     height: 10vh;
     width: 70%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Dancing script', cursive;
     margin: 0.5rem;
     padding: 1rem;
- }
+    color: var(--red);
+    color: var(--dark-blue);
+    text-align: center;
+}
+img {
+    font-size: 5px;
+    margin: 12px;
+    margin-left: 25px;
+}
+div {
+    margin: 1rem;
+    font-size: 300px;
+}
+
+#btn:hover {
+    background-color: var(--green);
+    color: var(--white) ;
+}
+
 #btn {
     margin: 1rem;
+    background-color: var(--orange);
+    border-radius: 5px;
+    font-size: large;
 }

@@ -4,7 +4,7 @@ var outputDiv = document.querySelector("#output");
 
 
 function clickHandler() {
-   outputDiv.innerText = "Happy Christmas " + textinput.value;
+   outputDiv.innerText = "🎄Merry Christmas🎄 " +  textinput.value;
 };
 
 btn.addEventListener("click", clickHandler)
