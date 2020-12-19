@@ -9,7 +9,7 @@
 
 body {
     background-color: var(--primary-color);
-    border: 1px solid var(--green);
+    border: 2px solid var(--green);
 }
 
 #text-input {
