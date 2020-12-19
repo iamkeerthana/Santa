@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --primary-color: #0f0f0f;
     --white: #f3f3f3;
@@ -9,7 +14,7 @@
 
 body {
     background-color: var(--primary-color);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
 }
 
 #text-input {
