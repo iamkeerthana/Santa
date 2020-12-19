@@ -10,7 +10,7 @@
 body {
     background-color: var(--primary-color);
     border: 1px solid var(--green);
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #text-input {
