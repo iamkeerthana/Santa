@@ -23,7 +23,6 @@ body {
     width: 85%;
     border: 1px solid var(--primary-color);
     margin: 0.5rem;
-    margin-top: 30px;
     padding: 1rem;
     background-color: black;
     color: var(--red);
