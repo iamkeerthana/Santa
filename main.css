@@ -10,12 +10,13 @@
 body {
     background-color: var(--primary-color);
     border: 1px solid var(--green);
+    border-radius: 5px;
 }
 
 #text-input {
     display: block;
     min-height: 10vh;
-    width: 78%;
+    width: 95%;
     border: 1px solid var(--primary-color);
     margin: 0.5rem;
     margin-top: 30px;
@@ -41,8 +42,8 @@ body {
 }
 img {
     font-size: 5px;
-    margin: 12px;
-    margin-left: 25px;
+    margin: 20px;
+    margin-left: 1rem;
 }
 div {
     margin: 1rem;
