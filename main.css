@@ -39,6 +39,9 @@ body {
     color: var(--dark-blue);
     text-align: center;
 }
+main {
+    font-size: large;
+}
 img {
     font-size: 5px;
     margin: 20px;
