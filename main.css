@@ -41,6 +41,7 @@ body {
 }
 main {
     font-size: large;
+    margin: 0.5rem;
 }
 img {
     font-size: 5px;
