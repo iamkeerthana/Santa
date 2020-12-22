@@ -2,64 +2,46 @@
     --primary-color: #0f0f0f;
     --white: #f3f3f3;
     --red: #ec0101;
-    --orange: #f39233;
     --dark-blue: #0779e4;
     --green: #54e346;
 }
 
-body {
-    background-color: var(--primary-color);
-    border: 1px solid var(--green);
-}
-
 #text-input {
     display: block;
-    min-height: 10vh;
-    width: 85%;
-    border: 1px solid var(--primary-color);
-    margin: 1rem;
-    margin-top: 1rem;
+    height: 7vh;
+    width: 60%;
+    border: 2px solid var(--primary-color);
+    margin: 0 auto;
+    margin-top: 15vh;
     padding: 1rem;
-    background-color: black;
     color: var(--red);
-    font-size: large;
-    font-family: 'Lobster', cursive;
+    font-size: 18px;
 }
 #output {
     display: block;
-    border:2px solid var(--primary-color);
     height: 10vh;
     width: 70%;
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: bold;
-    font-family: 'Dancing script', cursive;
-    margin: 0.5rem;
+    margin: 0 auto;
     padding: 1rem;
-    color: var(--red);
     color: var(--dark-blue);
     text-align: center;
-}
-main {
-    font-size: large;
-}
-img {
-    font-size: 5px;
-    margin: 20px;
-    margin-left: 4rem;
 }
 div {
     margin: 1rem;
     font-size: 300px;
 }
-
 #btn:hover {
     background-color: var(--green);
     color: var(--white) ;
 }
-
 #btn {
-    margin: 1rem;
-    background-color: var(--orange);
+    display: block;
+    margin: 8px auto;
     border-radius: 5px;
-    font-size: large;
+    border: 1px solid var(--primary-color);
+    padding: 3px 8px;
+    background-color: var(--green);
+    font-size: small;
 }
